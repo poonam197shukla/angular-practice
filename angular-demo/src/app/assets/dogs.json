@@ -1,0 +1,159 @@
+{
+    "status": "success",
+    "data": {
+      "dogs": [
+        {
+          "id": "d1",
+          "name": "Buddy",
+          "age": 4,
+          "breed": {
+            "id": "b1",
+            "name": "Golden Retriever",
+            "size": "Large",
+            "hypoallergenic": false,
+            "life_span": {
+              "min": 10,
+              "max": 12
+            }
+          }
+        },
+        {
+          "id": "d2",
+          "name": "Max",
+          "age": 3,
+          "breed": {
+            "id": "b2",
+            "name": "Bulldog",
+            "size": "Medium",
+            "hypoallergenic": false,
+            "life_span": {
+              "min": 8,
+              "max": 10
+            }
+          }
+        },
+        {
+          "id": "d3",
+          "name": "Bella",
+          "age": 2,
+          "breed": {
+            "id": "b3",
+            "name": "Poodle",
+            "size": "Medium",
+            "hypoallergenic": true,
+            "life_span": {
+              "min": 12,
+              "max": 15
+            }
+          }
+        },
+        {
+          "id": "d4",
+          "name": "Charlie",
+          "age": 5,
+          "breed": {
+            "id": "b4",
+            "name": "Beagle",
+            "size": "Small",
+            "hypoallergenic": false,
+            "life_span": {
+              "min": 12,
+              "max": 15
+            }
+          }
+        },
+        {
+          "id": "d5",
+          "name": "Luna",
+          "age": 1,
+          "breed": {
+            "id": "b5",
+            "name": "German Shepherd",
+            "size": "Large",
+            "hypoallergenic": false,
+            "life_span": {
+              "min": 9,
+              "max": 13
+            }
+          }
+        },
+        {
+          "id": "d6",
+          "name": "Rocky",
+          "age": 6,
+          "breed": {
+            "id": "b6",
+            "name": "Boxer",
+            "size": "Large",
+            "hypoallergenic": false,
+            "life_span": {
+              "min": 10,
+              "max": 12
+            }
+          }
+        },
+        {
+          "id": "d7",
+          "name": "Molly",
+          "age": 4,
+          "breed": {
+            "id": "b7",
+            "name": "Dachshund",
+            "size": "Small",
+            "hypoallergenic": false,
+            "life_span": {
+              "min": 12,
+              "max": 16
+            }
+          }
+        },
+        {
+          "id": "d8",
+          "name": "Daisy",
+          "age": 3,
+          "breed": {
+            "id": "b8",
+            "name": "Shih Tzu",
+            "size": "Small",
+            "hypoallergenic": true,
+            "life_span": {
+              "min": 10,
+              "max": 16
+            }
+          }
+        },
+        {
+          "id": "d9",
+          "name": "Bailey",
+          "age": 2,
+          "breed": {
+            "id": "b9",
+            "name": "Chihuahua",
+            "size": "Small",
+            "hypoallergenic": false,
+            "life_span": {
+              "min": 14,
+              "max": 18
+            }
+          }
+        },
+        {
+          "id": "d10",
+          "name": "Cooper",
+          "age": 5,
+          "breed": {
+            "id": "b10",
+            "name": "Rottweiler",
+            "size": "Large",
+            "hypoallergenic": false,
+            "life_span": {
+              "min": 8,
+              "max": 10
+            }
+          }
+        }
+      ]
+    },
+    "message": "10 dog details retrieved successfully"
+  }
+  

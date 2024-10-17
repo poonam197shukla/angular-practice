@@ -1,0 +1,48 @@
+<p>Template Form Example below</p>
+<form #templateForm="ngForm" (ngSubmit)="onTemplateSubmit(templateForm)">
+    <div>
+      <label>Name </label>
+      <input type="text" ngModel name="name" required>
+    </div><br>
+  
+    <div>
+      <label>Email </label>
+      <input type="email" ngModel name="email" required>
+    </div><br>
+  
+    <div>
+      <label>Contact Number </label>
+      <input type="text" ngModel name="contactNumber" required>
+    </div>
+  
+    <button type="submit" [disabled]="!templateForm.valid">Login TD</button>
+  </form>
+<hr>
+<p>Reactive Form Example below</p>
+<form [formGroup]="reactiveForm!" (ngSubmit)="reactiveSubmit(reactiveForm)">
+    <div>
+        <label>First Name: </label>
+        <input type="text" formControlName="firstName">
+    </div>
+
+    <div>
+        <label>Last Name: </label>
+        <input type="text"  formControlName="lastName">
+    </div>
+
+    <div>
+        <label>Gender </label>
+        <input type="radio"  formControlName="gender" value="male"> Male
+        <input type="radio"  formControlName="gender" value="female"> Female
+    </div>
+    
+    <div>
+        <label for="state">State: </label>
+        <select formControlName="state" id="" >
+            <option value="selectedState" *ngFor="let state of states">{{state}}</option>
+        </select>
+    </div>
+
+    <button type="submit" [disabled]="!reactiveForm?.valid">Submit RF</button>
+
+</form>
